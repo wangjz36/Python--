@@ -9,8 +9,10 @@
     list(set())
 
 # 4. map函数+list函数，转字符串到数组
+    ```
     inp='9 6 4 2 1 3 5 7 0 1 8'
     list(map(int,li))
     li=inp.split()
-
+    ```
+    
 # 5.
