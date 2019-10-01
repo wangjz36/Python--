@@ -1,4 +1,6 @@
-1. sort()与sorted()的不同在于，sort是在原位重新排列列表，而sorted()是产生一个新的列表： a.sort()与b=sorted(a)
+
+#sort() vs. sorted()
+sort()与sorted()的不同在于，sort是在原位重新排列列表，而sorted()是产生一个新的列表： a.sort()与b=sorted(a)
 
 2. key=lambda x:x[1],数组排序时常用，调用第二个位置为排序依据。如b=sorted(enumerate(a), key=lambda x:x[1])，可以取出排序的位置。
 
