@@ -1,5 +1,6 @@
 
 # 1. sort() vs. sorted()
+你好
     sort()与sorted()的不同在于，sort是在原位重新排列列表，而sorted()是产生一个新的列表： a.sort()与b=sorted(a)
 
 # 2. lambda
