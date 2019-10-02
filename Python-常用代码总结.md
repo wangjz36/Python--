@@ -13,7 +13,7 @@
     list(map(int,li))
     li=inp.split()
     
-## 5. copy
+## 5. copy 进行list整体赋值时一定要注意
 ### 深度
     a_list=b_list会造成后续修改b时，a随之自动变化。
     为了开辟新的空间并保存为新变量，需要用到deepcopy：
