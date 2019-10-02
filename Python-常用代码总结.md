@@ -13,12 +13,13 @@
     list(map(int,li))
     li=inp.split()
     
-## 5. ### 深度copy
+## 5. copy
+### 深度
     a_list=b_list会造成后续修改b时，a随之自动变化。
     为了开辟新的空间并保存为新变量，需要用到deepcopy：
     import copy
     a_list=copy.deepcopy(b_list)
-  ### 浅copy：
+### 浅度：
     a=copy.copy(b)
     或
     a=b[:] 
